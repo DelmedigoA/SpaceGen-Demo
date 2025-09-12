@@ -4,9 +4,11 @@ from flask_cors import CORS
 
 app = Flask(__name__, static_folder='.', static_url_path='')
 CORS(app)
+MODEL_PATH = "SpaceGen/SpaceGen_Large.keras"
 
-model = SpaceGenModel()
 
+
+model = SpaceGenModel(model_path=MODEL_PATH)
 @app.route('/api/data', methods=['POST'])
 def space_text():
     if request.is_json:
