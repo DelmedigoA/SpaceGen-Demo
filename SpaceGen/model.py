@@ -4,7 +4,7 @@ from .utils import *
 
 
 # Path to your Keras model
-MODEL_PATH = "/Users/delmedigo/Dev/SpaceGen/SpaceGen/SpaceGen_Large.keras"
+MODEL_PATH = "SpaceGen/SpaceGen_Large.keras"
 
 
 # Compatibility shim: accept and ignore deprecated/unknown 'time_major'
