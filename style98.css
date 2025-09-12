@@ -1,0 +1,45 @@
+body {
+    background-image: url('images/retro-space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 42px;
+    padding-top: 1px;
+}
+
+h6 {
+    margin-bottom: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.button-container {
+    margin-bottom: 35px;
+}
+
+button {
+    background-color: rgba(47, 28, 113, 0.5);
+    color: white;
+    font-size: 14px;
+}
+
+textarea {
+    padding-top: 5px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    max-width: 500px; /* Limit maximum width if needed */
+    box-sizing: border-box; /* Ensures padding does not affect width */
+    resize: vertical; /* Allows user to resize vertically */
+}

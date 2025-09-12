@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+flask/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+
+# Ignore Python envs
+env/
+venv/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Ignore site-packages
+**/site-packages/
