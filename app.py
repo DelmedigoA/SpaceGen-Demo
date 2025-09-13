@@ -21,6 +21,8 @@ def space_text():
 def index():
     return send_from_directory('.', 'main.html')
 
+import os
+
 if __name__ == '__main__':
-    # Use a non-conflicting port to avoid macOS AirPlay/other listeners
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)
